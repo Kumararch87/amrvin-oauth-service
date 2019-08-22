@@ -3,7 +3,7 @@ server:
 spring:
    security:
       user:
-         name: admin
+         name: amrvin
          password: password01
          roles: ADMIN,USER
 security:
