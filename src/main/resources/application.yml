@@ -1,0 +1,17 @@
+server:
+   port: 3030
+spring:
+   security:
+      user:
+         name: admin
+         password: password01
+         roles: ADMIN,USER
+security:
+   oauth2:
+      client:
+         client-id: mobile
+         client-secret: rsa
+         access-token-validity-seconds: 1800
+         authoried-grant-types: refresh-token,password,authorization_code
+         scope: READ,WRITE
+          
